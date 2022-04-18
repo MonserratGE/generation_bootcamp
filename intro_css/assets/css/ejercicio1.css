@@ -1,0 +1,20 @@
+.maderaUno{
+    background-color: rgb(216, 112, 147);
+}
+
+.maderaDos{
+    background-color: rgb(243, 152, 16);
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.maderaTres{
+    background-color: gainsboro;
+    border-left: 5px solid rgb(214, 79, 180);
+}
+
+.maderaCuatro{
+    background-color: gainsboro;
+    border-top: 2px solid rgb(214, 79, 180);
+    border-bottom: 2px solid rgb(214, 79, 180);
+}
