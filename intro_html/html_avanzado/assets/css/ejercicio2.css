@@ -1,6 +1,6 @@
 *{
-    background-color: green;
-    color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .color{
@@ -19,4 +19,46 @@
     border: none;
     padding: 5px 20px;
     margin: 40px 20px;
+}
+
+/*Segundo Formulario*/
+
+.formulario{
+    background-color: green;
+    color: white;
+    padding: 50px;
+    border: 5px solid skyblue;
+    border-radius: 10px;
+    width: 330px;
+    margin: 20px auto;
+}
+
+.espaciado{
+    padding-left: 20px;
+}
+
+label{
+    display: inline-block;
+    width: 80px;
+}
+
+input{
+    border: 3px solid red;
+    width: 200px;
+}
+
+.btn-enviar{
+    border: none;
+    width: 120px;
+}
+
+.boton{
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 180px;
+    border-top: 2px dashed white;
+    padding-left: 40px;
+}
+p{
+    padding: 10px 0;
 }

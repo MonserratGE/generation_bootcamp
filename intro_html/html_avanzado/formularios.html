@@ -13,7 +13,7 @@
         <form action="" method="post"> 
         value="Mon"
     -->
-    <form>
+    <!-- <form>
         <input type="text" placeholder="Nombre" required>
         <input type="text" placeholder="Apellido" size="10">
         <input type="text" minlength="2" maxlength="10">
@@ -48,33 +48,38 @@
         color.addEventListener("change", function(e){
             document.body.style.backgroundColor = e.target.value;
         })
-    </script>
+    </script> -->
 
     <hr>
 
     <h1>Formulario</h1>
 
-    <form class="form">
+    <form class="form" id="formularioDatos">
         <div class="nombre">
             <label for="nombre" class="lineal">Nombre</label>
             <input type="text" name="name" id="nombre" class="colorFondo" placeholder="Nombre" required>
         </div>
         <div class="apellido">
             <label for="apellido" class="lineal">Apellido</label>
-            <input type="text" name="" id="apellido" class="colorFondo" placeholder="Apellido">
+            <input type="text" name="lastname" id="apellido" class="colorFondo" placeholder="Apellido">
         </div>
         <div class="password">
             <label for="password" class="lineal">Contraseña</label>
-            <input type="password" id="password" class="colorFondo" required>
+            <input type="password" id="password" class="colorFondo" name="password" required>
         </div>
         <div class="email">
             <label for="correo" class="lineal">Correo</label>
-            <input type="email" id="correo" class="colorFondo">
+            <input type="email" id="correo" class="colorFondo" name="email">
+        </div>
+        <div>
+            <input type="checkbox" name="check" id="" value="Aceptado" checked>
         </div>
         <div class="enviar">
             <input type="submit" class="btn" value="Enviar">
             <!-- <button type="submit"><img src="https://www.pngjoy.com/pngm/909/10599541_palomita-paloma-verde-png-hd-png-download.png" alt=""></button> -->
         </div>
     </form>
+
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
