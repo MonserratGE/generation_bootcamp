@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 /* Navbar */
 
 .img-logo{
@@ -13,6 +18,28 @@
     height: calc(100vh - 76px);
     object-fit: cover;
     object-position: center;
+}
+
+/* Cajita */
+.pantalla{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: calc(100vh - 76px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.cuadro{
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    width: 50vw;
 }
 
 /* Imágenes */
