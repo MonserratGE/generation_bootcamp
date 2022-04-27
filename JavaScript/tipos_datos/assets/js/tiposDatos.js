@@ -25,3 +25,8 @@ for(let i = 0; i <= 10; i++){
     console.log(i);
 } */
 
+
+/* Nivel 1 */
+
+const anhoNacimiento = prompt("Escribe tu año de nacimiento: ");
+
