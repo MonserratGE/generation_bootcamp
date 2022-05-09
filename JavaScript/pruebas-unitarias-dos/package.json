@@ -1,0 +1,15 @@
+{
+  "name": "pruebas-unitarias-dos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "para-probar.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
